@@ -24,4 +24,6 @@ pipleline {
 					echo "Hello"
 				}
 			}
+
+		}
 }
