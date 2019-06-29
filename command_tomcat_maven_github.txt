@@ -1,0 +1,340 @@
+    1  apt-get update
+    2  sudo apt-get update
+    3  sudo yum install java-1.8.0-openjdk.x86.* -y
+    4  clear
+    5  sudo apt install openjdk-8-jdk
+    6  sudo apt update
+    7  clear
+    8  alias c=clear
+    9  c
+   10  java -version
+   11  cd /opt/
+   12  ls
+   13  wget http://apachemirror.wuchna.com/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+   14  sudo wget http://apachemirror.wuchna.com/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
+   15  ls
+   16  c
+   17  ls
+   18  tar -xvzf apache-maven-3.6.1-bin.tar.gz 
+   19  ls
+   20  ls -a
+   21  sudo tar -xvzf apache-maven-3.6.1-bin.tar.gz 
+   22  ls
+   23  mv apache-maven-3.6.1 maven
+   24  sudo mv apache-maven-3.6.1 maven
+   25  ls
+   26  cd maven/
+   27  vim /etc/profile.d/mavenenv.sh 
+   28  sudo vim /etc/profile.d/mavenenv.sh 
+   29  c
+   30  ls
+   31  source /etc/profile.d/mavenenv.sh 
+   32  mvn --version
+   33  cd ..
+   34  cd ,,
+   35  cd ..
+   36  sudo mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   37  sudo mvn --version
+   38  mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   39  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   40  ls
+   41  mvn archetype:generate -DgroupID=com.mycompany.app -DartifactID=myMaven -DarchetypeArtifactID=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   42  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   43  sudo apt install openjdk-devel
+   44  sudo apt install default-jdk
+   45  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   46  c
+   47  sudo apt remove --purge openjdk-9-jdk openjdk-9-jre
+   48  sudo apt install openjdk-8-jdk-headless openjdk-9-jre-headless
+   49  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   50  c
+   51  rm -rf rm -rf ~/.m2/repository/org/apache/
+   52  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   53  mvn clean install -X
+   54  rm -rf rm -rf ~/.m2/repository/org/apache/
+   55  mvn clean install -X
+   56  rm -rf rm -rf ~/.m2/repository/org/apache/
+   57  mvn install
+   58  rm -rf rm -rf ~/.m2/repository/org/apache/
+   59  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=falsec
+   60  c
+   61  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   62  rm -rf rm -rf ~/.m2/repository/org/apache/
+   63  mvn install
+   64  c3
+   65  c
+   66  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DinteractiveMode=true
+   67  rm -rf rm -rf ~/.m2/repository/org/apache/
+   68  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=myMaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   69  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=maven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   70  rm -rf rm -rf ~/.m2/repository/org/apache/
+   71  pwd
+   72  mvn --version
+   73  ls
+   74  mkdir maven
+   75  sudo mkdir maven
+   76  cd maven/
+   77  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=maven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+   78  cd
+   79  rm -rf rm -rf ~/.m2/repository/org/apache/
+   80  mvn archetype:generate
+   81  c
+   82  cd mymaven/
+   83  pwd
+   84  sudo apt-get install tree
+   85  tree
+   86  vim pom.xml 
+   87  qc
+   88  c
+   89  mvn compile
+   90  mvn package
+   91  tree
+   92  cat pom.xml 
+   93  cat pom.xml | less
+   94  java -cp target/mymaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+   95  tree
+   96  java -cp target/mymaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+   97  cat pom.xml | less
+   98  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+   99  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app
+  100  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.app
+  101  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  102  tree
+  103  tree | less
+  104  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App.class
+  105  cd 
+  106  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  107  history
+  108  tree | less
+  109  cd mymaven/
+  110  cat pom.xml | less
+  111  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  112  java -cp target/mymaven-1.0-SNAPSHOT.jar
+  113  java -cp . App
+  114  java -cp . App.java
+  115  java -cp . app.java
+  116  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  117  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.App.App
+  118  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.App.app
+  119  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  120  c
+  121  tee
+  122  tree
+  123  java -cp target/mymaven-1.0-SNAPSHOT.jar App
+  124  java -cp target/mymaven-1.0-SNAPSHOT.jar Appc
+  125  c
+  126  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar com.company.app.App
+  127  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar App
+  128  java -cp target/mymaven-1.0-SNAPSHOT.jar App
+  129  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  130  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  131  /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar target/mymaven-1.0-SNAPSHOT.jar App
+  132  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  133  c
+  134  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  135  sudo /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  136  echo $CLASSPATH
+  137  sudo java App.class
+  138  sudo java App
+  139  sudo java com.company.app.App
+  140  tree
+  141  c
+  142  vim pom.xml 
+  143  c
+  144  cat pom.xml | head -8
+  145  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  146  java -cp "/home/scripts" com.company.app.App
+  147  cd /home/maven/
+  148  java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  149  cd 
+  150  cd mymaven/
+  151  ls
+  152  java -cp App
+  153  java -cp com.company.app.App
+  154  java -cp . App
+  155  javac . App
+  156  c
+  157  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  158  sudo vim ~/.bashrc 
+  159  sudo vim /etc/profile.d/mavenenv.sh 
+  160  q!
+  161  c
+  162  java_home
+  163  JAVA_HOME
+  164  PATH
+  165  java
+  166  java | less
+  167  java | head -5
+  168  java -version
+  169  $JAVA_HOME
+  170  $PATH
+  171  java -version | get
+  172  sudo apt purge java*
+  173  java -version
+  174  sudo apt update
+  175  sudo apt install openjdk-8-jdk -y
+  176  java -version
+  177  rm -rf rm -rf ~/.m2/repository/org/apache/
+  178  mvn compile
+  179  ls
+  180  mvn package
+  181  tree
+  182  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  183  $JAVA_HOME
+  184  $PATH
+  185  java -version
+  186  sudo vim ~/.bashrc 
+  187  $JAVA_HOME
+  188  $PATH
+  189  reboot
+  190  $JAVA_PATH
+  191  $JAVA_HOME
+  192  sudo java -cp target/mymaven-1.0-SNAPSHOT.jar com.company.app.App
+  193  rm -rf rm -rf ~/.m2/repository/org/apache/
+  194  mvn archetype:generate
+  195  sudo vim ~/.bashrc 
+  196  mvn archetype:generate
+  197  vim /etc/profile.d/mavenenv.sh 
+  198  source /etc/profile.d/mavenenv.sh 
+  199  mvn archetype:generate
+  200  reboot
+  201  mvn archetype:generate
+  202  rm -rf rm -rf ~/.m2/repository/org/apache/
+  203  mvn archetype:generate
+  204  ls
+  205  cd myMaven/
+  206  tree
+  207  mvn compile
+  208  mvn package
+  209  sudo java -cp target/myMaven-1.0-SNAPSHOT.jar com.mycompany.app.App
+  210  history > command.txt
+  211  git status
+  212  cd ..
+  213  ls
+  214  mkdir gittest
+  215  cd gittest/
+  216  git init
+  217  git config
+  218  location git
+  219  find git
+  220  c
+  221  clear
+  222  man git config
+  223  git config -s
+  224  c
+  225  alias c=clear
+  226  c
+  227  .gitco
+  228  .git
+  229  cat .git
+  230  cat .git/
+  231  c
+  232  git config --global user.name "Rock46"
+  233  git config --global user.email "linuxrakesh@gmail.com"
+  234  git config --list
+  235  vim .gitconfig
+  236  c
+  237  git clone https://github.com/Rock46/gitfirst.git
+  238  git status
+  239  ls
+  240  cd gitfirst/
+  241  ls
+  242  history > Mavnen_git_command.txt
+  243  git status
+  244  git add .
+  245  git comment -m "Command history"
+  246  git commit -m "Command history"
+  247  git push -u origin master
+  248  git log
+  249  ~./gitconfig
+  250  cat ~./gitconfig
+  251  c
+  252  git --list
+  253  git config --list
+  254  nnn\v\cc
+  255  c
+  256  java -version
+  257  cd 
+  258  ls
+  259  c
+  260  cd /tmp/
+  261  ls
+  262  wget https://www.apache.org/dist/tomcat/tomcat-7/v7.0.94/bin/apache-tomcat-7.0.94.tar.gz.asc
+  263  ls
+  264  wget https://www.apache.org/dist/tomcat/tomcat-7/v7.0.94/bin/apache-tomcat-7.0.94.tar.gz
+  265  ls
+  266  tar xzf apache-tomcat-7.0.94.tar.gz 
+  267  ls
+  268  cd /usr/local/tomcat7
+  269  c
+  270  mv apache-tomcat-7.0.94 /usr/local/tomcat7
+  271  sudo mv apache-tomcat-7.0.94 /usr/local/tomcat7
+  272  cd /usr/local/tomcat7
+  273  ./bin/startup.sh 
+  274  ifconfig
+  275  ping www.google.com
+  276  ping 192.168.1.50
+  277  ping 192.168.1.2
+  278  c
+  279  sudo vim /etc/network/interfaces
+  280  c
+  281  /etc/init.d/networking restart
+  282  sudo /etc/init.d/networking restart
+  283  ifconfig
+  284  c
+  285  ifconfig
+  286  ping 192.168.1.4
+  287  ping 192.168.1.2
+  288  c
+  289  locate tomcat-users
+  290  vim /usr/local/tomcat7/conf/tomcat-users.xml 
+  291  ls /maven/
+  292  locate settings.xml
+  293  updatedb
+  294  cd mav
+  295  cd /maven/
+  296  ls
+  297  cd
+  298  ls
+  299  cd myMaven/
+  300  ls
+  301  fin settings.xml
+  302  find settings.xml
+  303  sudo updatedb
+  304  locate settings.xm;
+  305  locate settings.xml
+  306  locate conf
+  307  locate conf/settings
+  308  vim /opt/maven/conf/settings.xml 
+  309  sudo vim /opt/maven/conf/settings.xml 
+  310  ls
+  311  mvn init
+  312  ls
+  313  cd
+  314  mkdir Git_Maven
+  315  cd Git_Maven/
+  316  c
+  317  git clone http://github.com/jleetutoria;/maven-project
+  318  git clone http://github.com/jleetutorial/maven-project
+  319  ls
+  320  cd maven-project/
+  321  ls
+  322  vim pom.xml 
+  323  c
+  324  sudo vim pom.xml 
+  325  ifconfig
+  326  c
+  327  sudo vim pom.xml 
+  328  c
+  329  mvn compile
+  330  mvn package
+  331  ls
+  332  mvn tomcat7:deploy
+  333  ./bin/shutdown.sh 
+  334  sudo service tomcat7 stop
+  335  sudo service tomcat7 start
+  336  sudo tomcat7 restart
+  337  sudo service tomcat7 restart
+  338  ./bin/shutdown.sh 
+  339  ./bin/startup.sh 
+  340  history > command_tomcat_maven_github.txt
